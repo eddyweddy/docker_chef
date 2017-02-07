@@ -1,4 +1,4 @@
-log_level                :info
+log_level :info
 current_dir = File.dirname(__FILE__)
 
-cookbook_path            ["#{current_dir}/../cookbooks"]
+cookbook_path ["#{current_dir}/../cookbooks"]
