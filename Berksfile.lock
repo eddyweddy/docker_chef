@@ -1,0 +1,11 @@
+DEPENDENCIES
+  apt
+  buildContainerTask
+    git: https://github.com/eddyweddy/buildContainerTask
+    revision: b7ab33f30eeb10c6067867b43061bca7d0d843b9
+
+GRAPH
+  apt (5.1.0)
+    compat_resource (>= 12.16.3)
+  buildContainerTask (0.1.0)
+  compat_resource (12.16.3)
